@@ -12,8 +12,7 @@
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
-    "plugin:jsx-a11y/recommended",
-    "airbnb-typescript",
+    "eslint-config-airbnb-base",
     "prettier"
   ],
   "ignorePatterns": ["*.test.*", "node_modules/", "dist/"],
@@ -23,19 +22,11 @@
     "project": "./tsconfig.json"
   },
   "plugins": ["@typescript-eslint/eslint-plugin"],
-  "settings": {
-    "react": {
-      "version": "detect"
-    },
-    "propWrapperFunctions": [],
-    "linkComponents": []
-  },
+  "settings": {},
   "rules": {
     "@typescript-eslint/quotes": "off",
     "no-undef": "error",
     "import/prefer-default-export": "off",
-    "@typescript-eslint/semi": "off",
-    "max-len": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {

@@ -8,24 +8,26 @@ type TKeySystem = {
 //   CENC = "cenc",
 // }
 
-const defaultConfig: MediaKeySystemConfiguration[] = [{
-  // initDataTypes: [],
-  audioCapabilities: [
-    {
-      contentType: 'audio/mp4;codecs="mp4a.40.2"',
-    },
-  ],
-  videoCapabilities: [
-    {
-      contentType: 'video/mp4;codecs="avc1.42E01E"',
-      // robustness: "3000",
-    },
-  ],
-}];
+const defaultConfig: MediaKeySystemConfiguration[] = [
+  {
+    // initDataTypes: [],
+    audioCapabilities: [
+      {
+        contentType: 'audio/mp4;codecs="mp4a.40.2"',
+      },
+    ],
+    videoCapabilities: [
+      {
+        contentType: 'video/mp4;codecs="avc1.42E01E"',
+        // robustness: "3000",
+      },
+    ],
+  },
+];
 
 const testKeySystem = ({
-  ks,
   // config,
+  ks,
 }: TKeySystem): Promise<MediaKeySystemAccess> =>
   navigator.requestMediaKeySystemAccess(ks, defaultConfig);
 
@@ -44,22 +46,22 @@ export const isPlayreadySupported = async (): Promise<boolean> => {
   if (!navigator.requestMediaKeySystemAccess) return false;
 
   return isMediaKeySupported({ ks: "com.microsoft.playready" });
-}
+};
 
 export const isPlayreadyRecommendedSupported = async (): Promise<boolean> => {
   if (!navigator.requestMediaKeySystemAccess) return false;
 
   return isMediaKeySupported({ ks: "com.microsoft.playready.recommended" });
-}
+};
 
 export const isWidevineSupported = async (): Promise<boolean> => {
   if (!navigator.requestMediaKeySystemAccess) return false;
 
   return isMediaKeySupported({ ks: "com.widevine.alpha" });
-}
+};
 
 export const isFairplaySupported = async (): Promise<boolean> => {
   if (!navigator.requestMediaKeySystemAccess) return false;
 
   return isMediaKeySupported({ ks: "com.apple.fps.1_0" });
-}
+};
