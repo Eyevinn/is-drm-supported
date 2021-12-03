@@ -17,5 +17,7 @@ The package exports the following asynchronous methods:
 ## Example
 
 ```typescript
+import { isFairplaySupported } from "@eyevinn/is-drm-supported";
+
 const isSupported = await isFairplaySupported();
 ```
