@@ -1,3 +1,15 @@
+# 1.0.0 (2021-12-03)
+
+
+### Bug Fixes
+
+* enable public npm access ([b478331](https://github.com/Eyevinn/is-drm-supported/commit/b478331dc7d9c5ab6851588746ed6094120de21a))
+
+
+### Features
+
+* add source code ([c278af2](https://github.com/Eyevinn/is-drm-supported/commit/c278af2ae4af92560c0b5dd68acf4daca76d7643))
+
 ## [1.2.3](https://github.com/martinstark/throttle-ts/compare/v1.2.2...v1.2.3) (2021-04-29)
 
 
