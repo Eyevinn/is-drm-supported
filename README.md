@@ -25,7 +25,7 @@ const isSupported = await isFairplaySupported();
 ## Contributing
 
 
-The project uses semantic-release to **automatically generate release notes** based on commits, it is important to follow some rules when committing.
+The project uses [semantic-release](https://github.com/semantic-release/semantic-release) to **automatically generate release notes** and **semantic versioning** from on commits, it is important to follow some rules when committing.
 
 This project uses [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary).
 
