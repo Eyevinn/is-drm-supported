@@ -1,0 +1,71 @@
+{
+  "author": "Eyevinn Technology <work@eyevinn.se>",
+  "contributors": [
+    "Martin <901824+martinstark@users.noreply.github.com>"
+  ],
+  "name": "is-drm-supported",
+  "version": "1.2.3",
+  "description": "HTML5 MSE DRM support detection library",
+  "typings": "dist/typings/index.d.ts",
+  "main": "dist/is-drm-supported.min.js",
+  "private": false,
+  "license": "MIT",
+  "files": [
+    "/dist",
+    "package.json",
+    "CHANGELOG.md",
+    "LICENSE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Eyevinn/is-drm-supported.git"
+  },
+  "scripts": {
+    "build": "yarn build:clean && webpack --config webpack.common.js && tsc -p tsconfig.json --emitDeclarationOnly",
+    "build:clean": "rimraf dist/*",
+    "fix": "eslint --fix .",
+    "lintstaged": "lint-staged",
+    "pretty": "prettier --write .",
+    "ts": "tsc --noEmit",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.5",
+    "@babel/preset-env": "7.15.4",
+    "@babel/preset-typescript": "7.15.0",
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.1",
+    "@typescript-eslint/eslint-plugin": "4.30.0",
+    "@typescript-eslint/parser": "4.30.0",
+    "babel-loader": "8.2.2",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-typescript": "12.3.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.25.1",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint_d": "11.0.0",
+    "husky": "7.0.2",
+    "lint-staged": "11.1.2",
+    "prettier": "2.3.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rimraf": "3.0.2",
+    "semantic-release": "17.4.7",
+    "typescript": "4.4.2",
+    "webpack": "5.52.0",
+    "webpack-cli": "4.8.0",
+    "webpack-merge": "5.8.0"
+  },
+  "keywords": [
+    "drm",
+    "video",
+    "audio",
+    "support",
+    "typescript"
+  ]
+}
