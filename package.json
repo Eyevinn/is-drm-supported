@@ -10,6 +10,9 @@
   "main": "dist/is-drm-supported.min.js",
   "private": false,
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "/dist",
     "package.json",
