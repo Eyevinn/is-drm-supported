@@ -7,11 +7,11 @@ Tiny MSE video and audio DRM detection library.
 The package exports the following asynchronous methods:
 
 > isPlayreadySupported
-> 
+>
 > isPlayreadyRecommendedSupported
-> 
+>
 > isWidevineSupported
-> 
+>
 > isFairplaySupported
 
 ## Example
@@ -23,7 +23,6 @@ const isSupported = await isFairplaySupported();
 ```
 
 ## Contributing
-
 
 The project uses [semantic-release](https://github.com/semantic-release/semantic-release) to **automatically generate release notes** and **semantic versioning** from on commits, it is important to follow some rules when committing.
 
