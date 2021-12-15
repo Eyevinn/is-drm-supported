@@ -4,7 +4,7 @@
     "Martin <901824+martinstark@users.noreply.github.com>"
   ],
   "name": "@eyevinn/is-drm-supported",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "HTML5 MSE DRM support detection library",
   "typings": "dist/typings/index.d.ts",
   "main": "dist/is-drm-supported.min.js",
