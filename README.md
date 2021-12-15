@@ -8,6 +8,8 @@ The package exports the following asynchronous methods:
 
 > isPlayreadySupported
 >
+> isPlayreadyChromecastSupported
+>
 > isPlayreadyRecommendedSupported
 >
 > isWidevineSupported

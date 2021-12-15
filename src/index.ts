@@ -48,6 +48,12 @@ export const isPlayreadySupported = async (): Promise<boolean> => {
   return isMediaKeySupported({ ks: "com.microsoft.playready" });
 };
 
+export const isPlayreadyChromecastSupported = async (): Promise<boolean> => {
+  if (!navigator.requestMediaKeySystemAccess) return false;
+
+  return isMediaKeySupported({ ks: "com.chromecast.playready" });
+};
+
 export const isPlayreadyRecommendedSupported = async (): Promise<boolean> => {
   if (!navigator.requestMediaKeySystemAccess) return false;
 
