@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Eyevinn/is-drm-supported/compare/v1.1.0...v1.2.0) (2021-12-15)
+
+
+### Features
+
+* remove accidental polyfilling ([296ad05](https://github.com/Eyevinn/is-drm-supported/commit/296ad053d0ba762a0bae186b1c095d3306631304))
+
 # [1.1.0](https://github.com/Eyevinn/is-drm-supported/compare/v1.0.1...v1.1.0) (2021-12-15)
 
 
