@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Eyevinn/is-drm-supported/compare/v1.2.0...v1.2.1) (2022-03-28)
+
+
+### Bug Fixes
+
+* working fairplay check ([a1983b3](https://github.com/Eyevinn/is-drm-supported/commit/a1983b375437a068b6a60e213894a0cdb322eed5))
+
 # [1.2.0](https://github.com/Eyevinn/is-drm-supported/compare/v1.1.0...v1.2.0) (2021-12-15)
 
 
