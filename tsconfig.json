@@ -16,5 +16,11 @@
     "rootDir": "src",
     "outDir": "dist/typings"
   },
-  "exclude": ["**/dist/", "**/node_modules/", "**/webpack.*", "**/commitlint.*"]
+  "exclude": [
+    "**/dist/",
+    "**/node_modules/",
+    "**/webpack.*",
+    "**/commitlint.*",
+    "**/demo"
+  ]
 }
