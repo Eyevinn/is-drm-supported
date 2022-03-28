@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRM Support Table</title>
+    <script type="module" src="index.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <table>
+        <p class="widevine">Widevine</p>
+        <p class="playready">Playready</p>
+        <p class="fairplay">Fairplay</p>
+      </table>
+    </div>
+    <style>
+      #wrapper {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      p {
+        color: #fff;
+        background-color: grey;
+        padding: 2rem;
+        font-size: 1.5rem;
+      }
+
+      p.failed {
+        background-color: red;
+      }
+      p.success {
+        background-color: green;
+      }
+    </style>
+  </body>
+</html>

@@ -24,6 +24,7 @@
     "url": "git@github.com:Eyevinn/is-drm-supported.git"
   },
   "scripts": {
+    "start": "parcel demo/index.html",
     "build": "yarn build:clean && webpack --config webpack.common.js && tsc -p tsconfig.json --emitDeclarationOnly",
     "build:clean": "rimraf dist/*",
     "fix": "eslint --fix .",
@@ -39,6 +40,9 @@
     "@babel/preset-typescript": "7.15.0",
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
+    "@parcel/packager-ts": "^2.4.0",
+    "@parcel/transformer-typescript-tsc": "^2.4.0",
+    "@parcel/transformer-typescript-types": "^2.4.0",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.1",
     "@typescript-eslint/eslint-plugin": "5.5.0",
@@ -52,6 +56,7 @@
     "eslint_d": "11.1.1",
     "husky": "7.0.4",
     "lint-staged": "11.1.2",
+    "parcel": "^2.4.0",
     "prettier": "2.5.0",
     "rimraf": "3.0.2",
     "semantic-release": "17.4.7",
