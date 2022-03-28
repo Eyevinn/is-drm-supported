@@ -10,7 +10,7 @@ type TKeySystem = {
 
 const defaultConfig: MediaKeySystemConfiguration[] = [
   {
-    // initDataTypes: [],
+    initDataTypes: ["cenc"],
     audioCapabilities: [
       {
         contentType: 'audio/mp4;codecs="mp4a.40.2"',
@@ -19,7 +19,6 @@ const defaultConfig: MediaKeySystemConfiguration[] = [
     videoCapabilities: [
       {
         contentType: 'video/mp4;codecs="avc1.42E01E"',
-        // robustness: "3000",
       },
     ],
   },
@@ -69,5 +68,5 @@ export const isWidevineSupported = async (): Promise<boolean> => {
 export const isFairplaySupported = async (): Promise<boolean> => {
   if (!navigator.requestMediaKeySystemAccess) return false;
 
-  return isMediaKeySupported({ ks: "com.apple.fps.1_0" });
+  return isMediaKeySupported({ ks: "com.apple.fps" });
 };
