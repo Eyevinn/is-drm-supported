@@ -14,6 +14,8 @@ The package exports the following asynchronous methods:
 >
 > isWidevineSupported
 >
+> isFairplayLegacySupported
+>
 > isFairplaySupported
 
 ## Example

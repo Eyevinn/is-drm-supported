@@ -70,3 +70,9 @@ export const isFairplaySupported = async (): Promise<boolean> => {
 
   return isMediaKeySupported({ ks: "com.apple.fps" });
 };
+
+export const isFairplayLegacySupported = async (): Promise<boolean> => {
+  if (!navigator.requestMediaKeySystemAccess) return false;
+
+  return isMediaKeySupported({ ks: "com.apple.fps.1_0" });
+};
