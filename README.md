@@ -23,7 +23,7 @@ The package exports the following asynchronous methods:
 ```typescript
 import { isFairplaySupported } from "@eyevinn/is-drm-supported";
 
-const isSupported = await isFairplaySupported();
+const hasFairplaySupport = await isFairplaySupported();
 ```
 
 ## Contributing
