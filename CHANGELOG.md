@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Eyevinn/is-drm-supported/compare/v1.2.1...v1.3.0) (2023-02-27)
+
+
+### Features
+
+* add fairplay legacy support ([26fe083](https://github.com/Eyevinn/is-drm-supported/commit/26fe0833fd6fcd384ce28113d8eb2b277c820ea1))
+
 ## [1.2.1](https://github.com/Eyevinn/is-drm-supported/compare/v1.2.0...v1.2.1) (2022-03-28)
 
 
