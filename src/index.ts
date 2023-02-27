@@ -3,11 +3,6 @@ type TKeySystem = {
   // config: MediaKeySystemConfiguration[];
 };
 
-// enum InitDataTypes {
-//   WEBM = "webm",
-//   CENC = "cenc",
-// }
-
 const defaultConfig: MediaKeySystemConfiguration[] = [
   {
     initDataTypes: ["cenc"],
