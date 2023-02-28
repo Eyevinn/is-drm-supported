@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/Eyevinn/is-drm-supported/compare/v1.4.0...v1.4.1) (2023-02-28)
+
+
+### Bug Fixes
+
+* remove node engine limitation ([018a823](https://github.com/Eyevinn/is-drm-supported/commit/018a823e9a46f43310e48716951c2e85d90f3865))
+
 # [1.4.0](https://github.com/Eyevinn/is-drm-supported/compare/v1.2.1...v1.4.0) (2023-02-27)
 
 
