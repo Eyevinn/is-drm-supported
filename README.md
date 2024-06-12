@@ -6,11 +6,13 @@ Tiny MSE video and audio DRM detection library.
 
 The package exports the following asynchronous methods:
 
-> isPlayreadySupported
+> isPlayreadyLegacySupported
 >
 > isPlayreadyChromecastSupported
 >
-> isPlayreadyRecommendedSupported
+> isPlayreadySupported
+>
+> isPlayreadyHardwareSupported
 >
 > isWidevineSupported
 >
