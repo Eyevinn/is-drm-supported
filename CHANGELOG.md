@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/Eyevinn/is-drm-supported/compare/v1.4.1...v2.0.0) (2024-06-13)
+
+
+* feat!: update playready key system checks ([0051866](https://github.com/Eyevinn/is-drm-supported/commit/0051866d57421d3ff52207918e519a9ba19b8e31))
+
+
+### BREAKING CHANGES
+
+* The original isPlayreadySupported has been renamed to
+isPlayreadyLegacySupported. The new isPlayreadySupported
+now checks com.microsoft.playready.recommendation.
+
+com.microsoft.playready is deprecated by Microsoft.
+
+https://learn.microsoft.com/en-us/playready/overview/key-system-strings
+
 ## [1.4.1](https://github.com/Eyevinn/is-drm-supported/compare/v1.4.0...v1.4.1) (2023-02-28)
 
 
